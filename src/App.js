@@ -96,15 +96,12 @@ const Portfolio = () => {
             
             {/* Desktop Nav */}
             <div className="hidden md:flex gap-8 items-center">
-              <a href="#work" className="text-gray-300 hover:text-purple-400 transition-colors">Work</a>
-              <a href="#about" className="text-gray-300 hover:text-purple-400 transition-colors">About</a>
-              <a href="#contact" className="text-gray-300 hover:text-purple-400 transition-colors">Contact</a>
+              <a href="/work" className="text-gray-300 hover:text-purple-400 transition-colors">Work</a>
+              <a href="/about" className="text-gray-300 hover:text-purple-400 transition-colors">About</a>
+              <a href="/contact" className="text-gray-300 hover:text-purple-400 transition-colors">Contact</a>
               <div className="flex gap-4">
-                <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href="/" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Github size={20} />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
-                  <Linkedin size={20} />
                 </a>
               </div>
             </div>
