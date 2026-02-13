@@ -71,13 +71,13 @@ const Portfolio = () => {
   ];
 
   const typeCategories = [
-    { id: 'presentation', name: 'Presentations', icon: '📊' },
-    { id: 'interactive', name: 'Interactive', icon: '⚡' },
-    { id: 'brochure', name: 'Brochures', icon: '📄' },
-    { id: 'flyer', name: 'Flyers & Posters', icon: '📋' },
-    { id: 'web', name: 'Web Design', icon: '🌐' },
-    { id: 'social', name: 'Social Media', icon: '📱' },
-    { id: 'poster', name: 'Posters', icon: '🎨' }
+    { id: 'presentation', name: 'Presentations', icon: '?' },
+    { id: 'interactive', name: 'Interactive', icon: '?' },
+    { id: 'brochure', name: 'Brochures', icon: '?' },
+    { id: 'flyer', name: 'Flyers & Posters', icon: '?' },
+    { id: 'web', name: 'Web Design', icon: '?' },
+    { id: 'social', name: 'Social Media', icon: '?' },
+    { id: 'poster', name: 'Posters', icon: '?' }
   ];
 
   const getProjectsByType = (type) => {
@@ -100,10 +100,10 @@ const Portfolio = () => {
               <a href="#about" className="text-gray-300 hover:text-purple-400 transition-colors">About</a>
               <a href="#contact" className="text-gray-300 hover:text-purple-400 transition-colors">Contact</a>
               <div className="flex gap-4">
-                <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href="https://github.com/kotzerkendra" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Github size={20} />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Linkedin size={20} />
                 </a>
               </div>
@@ -319,10 +319,10 @@ const Portfolio = () => {
             Get in Touch
           </a>
           <div className="flex justify-center gap-6 mt-8">
-            <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+            <a href="https://github.com/kotzerkendra" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">
               <Github size={24} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">
               <Linkedin size={24} />
             </a>
             <a href="mailto:kotzerkendra@gmail.com" className="text-gray-400 hover:text-purple-400 transition-colors">
@@ -335,7 +335,7 @@ const Portfolio = () => {
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-purple-500/20">
         <div className="max-w-7xl mx-auto text-center text-gray-400">
-          <p>© 2026 Kendra Kotzer. Designed & Built with React.</p>
+          <p>� 2026 Kendra Kotzer. Designed & Built with React.</p>
         </div>
       </footer>
 
