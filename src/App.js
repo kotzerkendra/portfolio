@@ -95,14 +95,14 @@ const Portfolio = () => {
       <nav className="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md z-50 border-b border-purple-500/20">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           
-          <a href="/" className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <a className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             KK
           </a>
 
           <div className="hidden md:flex gap-8 items-center">
-            <a href="#work" className="text-gray-300 hover:text-purple-400 transition-colors">Work</a>
-            <a href="#about" className="text-gray-300 hover:text-purple-400 transition-colors">About</a>
-            <a href="#contact" className="text-gray-300 hover:text-purple-400 transition-colors">Contact</a>
+            <a href="/work" className="text-gray-300 hover:text-purple-400 transition-colors">Work</a>
+            <a href="/about" className="text-gray-300 hover:text-purple-400 transition-colors">About</a>
+            <a href="/contact" className="text-gray-300 hover:text-purple-400 transition-colors">Contact</a>
 
             <div className="flex gap-4">
               <a
@@ -142,6 +142,16 @@ const Portfolio = () => {
           </p>
 
           <div className="flex gap-4">
-            <a href="#work" className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg">
+            <a href="/work" className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg">
               View Work
             </a>
+
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Portfolio;
+
