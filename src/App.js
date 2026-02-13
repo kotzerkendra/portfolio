@@ -145,4 +145,3 @@ const Portfolio = () => {
             <a href="#work" className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg">
               View Work
             </a>
-            <
